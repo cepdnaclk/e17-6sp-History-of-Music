@@ -1,9 +1,9 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Amarasinghe R.A.A.U.",
+            "email": "e17012@eng.pdn.ac.lk",
+            "eNumber": "E/17/012"
         },
         {
             "name": "Team Member Name 2",
@@ -26,5 +26,5 @@
             "email": "email@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["Web", "Embedded Systems"]
+    "tags": ["Music", "Machine Learning"]
 }
