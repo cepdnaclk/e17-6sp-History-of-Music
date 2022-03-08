@@ -18,13 +18,13 @@
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Dhammika Elkaduwa",
+            "email": "dhammika@eng.pdn.ac.lk"
         },
         {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Sampath Deegalle",
+            "email": "sampath@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["Music", "Machine Learning"]
+    "tags": ["Music", "Machine Learning", "Deep learning"]
 }
