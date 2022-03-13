@@ -60,6 +60,29 @@ Applications
 3. [Links](#links)
 
 ---
+![](images/team/012v3.png)
+
+###### Aminda Amarasinghe
+
+*   [](http://www.linkedin.com/in/aminda-amarasinghe-30b4591a8)
+*   [](https://github.com/AmindaAmarasinghe)
+*   [](mailto:e17012@eng.pdn.ac.lk)
+
+![](images/team/038v1.jpg)
+
+###### Anuruddha Chandrasekara
+
+*   [](https://www.linkedin.com/in/anuruddha-chandrasekara-a150801a9/)
+*   [](https://github.com/Anuruddhacha)
+*   [](mailto:e17038@eng.pdn.ac.lk)
+
+![](images/team/101v1.jpg)
+
+###### Anjalee Gunathilaka
+
+*   
+*   
+*   [](mailto:e17101@eng.pdn.ac.lk)
 
 
 ## Links
