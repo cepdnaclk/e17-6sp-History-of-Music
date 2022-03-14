@@ -36,6 +36,19 @@ Applications
 - Artist identification
 - Instrument recognition
 
+## System Architecture
+![system architecture](/docs/images/sys.jpg)
+
+## Data Flow
+![Data flow](/docs/images/flow.jpg)
+
+### Technologies
+![Next](/docs/images/next.jpg)
+
+![Django](/docs/images/django.jpg)
+## Machine Learning Plan
+![ML plan](/docs/images/ml.jpg)
+
 
 ## Team Members
 1. E/17/012 Amarasinghe R A A U [[Website](http://www.ce.pdn.ac.lk/e17-batch/), [Email](mailto:e17012@eng.pdn.ac.lk)]
