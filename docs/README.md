@@ -37,17 +37,17 @@ Applications
 - Instrument recognition
 
 ## System Architecture
-![system architecture](/docs/images/sys.jpg)
+![system architecture](./images/sys.jpg)
 
 ## Data Flow
-![Data flow](/docs/images/flow.jpg)
+![Data flow](./images/flow.jpg)
 
 ### Technologies
-![Next](/docs/images/next.jpg)
+![Next](./images/next.jpg)
 
-![Django](/docs/images/django.jpg)
+![Django](./images/django.jpg)
 ## Machine Learning Plan
-![ML plan](/docs/images/ml.jpg)
+![ML plan](./images/ml.jpg)
 
 
 ## Team Members
@@ -64,7 +64,7 @@ Applications
 2. Dr.  Sampath Deegalla[[Website](http://www.ce.pdn.ac.lk/academic-staff/d-s-deegalla/), [Email](sampath@eng.pdn.ac.lk)]
 
 ## Scrum master
-1. Keshara Weerasinghe [[Email](keshara2032@gmail.com)
+1. Keshara Weerasinghe [[Email](keshara2032@gmail.com)]
 
 
 ## Table of Contents
