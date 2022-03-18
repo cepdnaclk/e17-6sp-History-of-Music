@@ -90,6 +90,19 @@ Some features ca be introduced as below.
     Examples: genres, moods, and sound characteristics
 
 
+## System Architecture
+![system architecture](./docs/images/sys.jpg)
+
+## Data Flow
+![Data flow](./docs/images/flow.jpg)
+
+### Technologies
+![Next](./docs/images/next.jpg)
+
+![Django](./docs/images/django.jpg)
+## Machine Learning Plan
+![ML plan](./docs/images/ml.jpg)
+
 ## Team Members
 1. E/17/012 Amarasinghe R A A U [[Website](http://www.ce.pdn.ac.lk/e17-batch/), [Email](mailto:e17012@eng.pdn.ac.lk)]
 
@@ -103,5 +116,5 @@ Some features ca be introduced as below.
 1. Dr. Dhammika Elkaduwa [[Website](http://www.ce.pdn.ac.lk/academic-staff/dhammika-elkaduwe/), [Email](dhammika@eng.pdn.ac.lk)]
 2. Dr.  Sampath Deegalla[[Website](http://www.ce.pdn.ac.lk/academic-staff/d-s-deegalla/), [Email](sampath@eng.pdn.ac.lk)]
 
-##Scrum master
-1.Keeshara weerasinghe (keshara2032@gmail.com)
+## Scrum master
+1. Keshara Weerasinghe (keshara2032@gmail.com)
