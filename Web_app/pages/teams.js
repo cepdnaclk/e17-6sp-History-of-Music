@@ -21,6 +21,44 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
+                                <img src="/img/comittee/dhammika-elkaduwe.png"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>Superviser<br/>
+                                <b>Dr. Dhammika Elkaduwa</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/comittee/sampath-deegalla.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>Superviser<br/>
+                                <b>Dr. Sampath Deegalla</b></small>
+                                </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/comittee/kehsra-weerasinghe.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>Scrum Master<br/>
+                                <b>Keshara weerasinghe</b></small>
+                                </div>
+                        </div>
+
+                        
+                </div>
+
+
+
+
+                <div className="row" style={{marginLeft:'2%',justifyContent:"center"}}>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
                                 <img src="/img/comittee/012v3.png"></img>
                             </div>
                             <div className={styles.card_container}>
@@ -31,7 +69,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/038v1.jpg"></img>
+                                <img src="/img/comittee/anuruddha-chandrasekara.jpg"></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Team Member<br/>
