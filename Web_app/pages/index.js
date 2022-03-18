@@ -26,9 +26,11 @@ export default function Home() {
             {/* <p>Loading...</p> */}
         </div>
         <NavBar page_no = {1} />
-        <div className = "main-container" >
+        <div className = {styles.main_container} >
         <img src = "./img/bg3.jpg" width={'100%'} height={'100%'}
         />
+        <h1 class={styles.align}>Analyze music.<br />Feel it. 
+        </h1>
         </div >  
         <Body />
       	{/*<Scroll />*/}
