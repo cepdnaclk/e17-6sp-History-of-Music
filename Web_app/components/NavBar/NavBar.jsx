@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+import Link from "next/link"
 
 class NavBar extends Component {
   state = {
@@ -41,7 +42,7 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="/"
+                  href="#home"
                   className={
                     this.props.page_no == 1
                       ? "nav-links current-page"
@@ -55,8 +56,9 @@ class NavBar extends Component {
 
 
               <li className="nav-item">
+              <Link href="#about">
                 <a
-                  href="/"
+                  
                   className={
                     this.props.page_no == 2
                       ? "nav-links current-page"
@@ -66,6 +68,7 @@ class NavBar extends Component {
                 >
                   ABOUT
                 </a>
+              </Link>
               </li>
 
 
@@ -107,10 +110,10 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="https://projects.ce.pdn.ac.lk/"
+                  href="#analyzer"
                   
                   className="button"
-                  onClick={() => this.closeMenu(4)}
+                  onClick={() => this.closeMenu(5)}
                 >
                   Analyze Music
                 </a>
