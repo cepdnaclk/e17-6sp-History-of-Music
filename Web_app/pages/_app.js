@@ -1,3 +1,4 @@
+import '../styles.scss'
 import '../styles/globals.css'
 import '../styles/NavBar.css'
 

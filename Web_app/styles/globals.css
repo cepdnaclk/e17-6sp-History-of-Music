@@ -54,7 +54,7 @@ video{
 
 
 #preloader{
-  background: #fff url(../public/img/preloader.png) center center no-repeat;
+  background: #fff url(../public/img/audio-waves.png) center center no-repeat;
   background-size: 7%;
   position: fixed;
   width: 100%;
