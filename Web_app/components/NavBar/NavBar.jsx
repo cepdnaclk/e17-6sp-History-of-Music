@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+import Link from "next/link"
 
 class NavBar extends Component {
   state = {
@@ -19,8 +20,8 @@ class NavBar extends Component {
       <>
         <nav className="navbar">
           <div className="navbar-container">
-            <a className="navbar-logo" to="/" onClick={()=>this.closeMenu(1)} style={{width:'390px',height:'100%'}}>
-              <img src="./img/logo_1.png" alt=""/>
+            <a className="navbar-logo" to="/" onClick={()=>this.closeMenu(1)} style={{width:'590px',height:'100%'}}>
+              <img src="./img/audio-waves.png" alt="" style={{width:'90px',height:'100%', marginLeft:'20px',marginRight:'20px'}} />
               <h2 style={{color:'white'}}>History of Music</h2>
             </a>
             <div className="menu-icon" onClick={this.handleMenu}>
@@ -41,7 +42,7 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="/"
+                  href="#home"
                   className={
                     this.props.page_no == 1
                       ? "nav-links current-page"
@@ -55,8 +56,9 @@ class NavBar extends Component {
 
 
               <li className="nav-item">
+              <Link href="#about">
                 <a
-                  href="/"
+                  
                   className={
                     this.props.page_no == 2
                       ? "nav-links current-page"
@@ -66,6 +68,7 @@ class NavBar extends Component {
                 >
                   ABOUT
                 </a>
+              </Link>
               </li>
 
 
@@ -107,10 +110,10 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="https://projects.ce.pdn.ac.lk/"
+                  href="#analyzer"
                   
                   className="button"
-                  onClick={() => this.closeMenu(4)}
+                  onClick={() => this.closeMenu(5)}
                 >
                   Analyze Music
                 </a>

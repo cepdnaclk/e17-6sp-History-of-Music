@@ -8,30 +8,18 @@ class About extends Component {
                <h4 className={styles.head}>ABOUT</h4>
                <div className={styles.AboutBg}>
                 <p className={styles.paraText}>
-                    The Department of Computer Engineering was first established in the year 1985 
-                    in the Faculty of Engineering in University of Peradeniya as the oldest 
-                    Computer Engineering Department in the University system of the country. 
-                    The Computer Engineering stream was introduced as a separate discipline to the 
-                    Faculty of Engineering in 2000. Since then, the Department of Computer Engineering 
-                    has been targeting at producing fully qualified Computer Engineering undergraduates 
-                    well equipped with knowledge, skills and attitudes required for the global industry, 
-                    highly technical researches as well as for the field of academia. The department 
-                    focuses on leveling up the competency levels of their undergraduates by providing 
-                    them with deep insights about computational systems and related disciplines so that 
-                    they would be able to build their own personal brand in the highly competitive field of 
-                    Computer Engineering.
+                In the world of music, we can see that, there is a huge number of music genres and 
+                each of them have various qualities. Pop, EDM, HipHop and Rap, Latin,R&B, Country and Acoustic 
+                are some examples for them. Some music genres are made by combining two or more other genres. 
+                We can identify them as sub genres.
+
                 </p>
                 <p className={styles.paraText}>
-                    On par with Department’s vision which is "To be a competitive entity in teaching and 
-                    research in Computer Engineering in the country and the region and to produce graduates 
-                    with international recognition for their knowledge and skills, capable of taking leadership 
-                    positions in the science and technology of design, construction, implementation, and 
-                    maintenance of software and hardware components of modern computing systems and computer-controlled 
-                    equipment that constitute the discipline of Computer Engineering", The Association of 
-                    Computer Engineering Students (ACES) was formed in August, 2001 as the students’ body of 
-                    Computer Engineering undergraduates of the Faculty of Engineering with the aim of 
-                    maximising students’ potential by organizing different activities and events that would 
-                    bring out the best within themselves and make them prepared for the next technological revolution.
+                In this project, we are putting an effort to build a model which can express how a piece of music 
+                has evolved from various genres using machine learning. We are using a web interface to interact 
+                with the users. When a music file is given as the input through the web interface, the model will 
+                extract the music features and that features will be used to analyse the music genres. Then the 
+                results will be displayed in a user friendly manner through the web interface.
                 </p>
                 </div>
             </div>
