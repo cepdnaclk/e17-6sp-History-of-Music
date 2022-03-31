@@ -7,7 +7,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ./musicapp/
   workflow_dispatch:
+    
 
 jobs:
   build:
@@ -26,12 +29,13 @@ jobs:
           npm install
           npm run build --if-present
           npm run test --if-present
+        working-directory: ./musicapp/
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: .
+          path: ./musicapp/build/
 
   deploy:
     runs-on: ubuntu-latest
