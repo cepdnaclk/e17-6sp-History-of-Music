@@ -1,19 +1,20 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - musicapp6sp
+name: Build and deploy Node.js app to Azure Web App - musicapp2
 
 on:
   push:
     branches:
       - main
     paths:
-      - ./Web_app/
+      - ./musicapp/
   workflow_dispatch:
+    
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -27,14 +28,14 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-        
-        working-directory: ./Web_app/
-
+          npm run test --if-present
+        working-directory: ./musicapp/
+      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: ./Web_app/build/
+          path: ./musicapp/build/
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,10 +51,10 @@ jobs:
           name: node-app
 
       - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
+        id: deploy-to-webapp
         with:
-          app-name: 'musicapp6sp'
+          app-name: 'musicapp2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFADE4F216A84C7A997F554D08A9D282 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7DF01D8C80A4C5181FC836DFE55485A }}
           package: .

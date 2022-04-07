@@ -1,20 +1,23 @@
+
+import React,{useRef} from 'react'
+import Head from 'next/head'
+// import { Loading } from 'carbon-components-react'
 import Footer from '../components/footer/Footer'
 import NavBar from '../components/NavBar/NavBar'
 import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-import React,{useRef} from 'react'
-import { Loading } from 'carbon-components-react'
-import Scroll from '../components/Body/Scroll'
+
+
+// import Scroll from '../components/Body/Scroll'
 
 export default function Home() {
     
     React.useEffect(() => {
-        var loader = document.getElementById('preloader');
-        //var loadercomp = document.getElementById('loader');
+        const loader = document.getElementById('preloader');
+        // var loadercomp = document.getElementById('loader');
         window.addEventListener('load',function(){
             loader.style.display="none";
-            //loadercomp.style.display="none";
+            // loadercomp.style.display="none";
         })
     },[])
     const HomeRef= useRef()
@@ -32,22 +35,21 @@ export default function Home() {
         
         </Head>
         <div id="preloader">
-         {/* <Loading id="loader" description="Loading indicator" withOverlay={false} style={{marginLeft:'35%'}} /> */}
+         {/*    <Loading id="loader" description="Loading indicator" withOverlay={false} style={{marginLeft:'35%'}} />      */}
         </div> 
         
         <NavBar page_no = {1} />
         <div className = {styles.main_container} ref={HomeRef} id="home" style={{ ...sectionStyle }}>
-        <img src = "./img/bg3.jpg" width={'100%'} height={'100%'}
+        <img src = "./img/bg3.jpg" width={'100%'} height={'100%'} alt=""
         />
-        <h1 class={styles.align}>Analyze music.<br />Feel it. 
+        <h1 className={styles.align}>Analyze music.<br />Feel it. 
         </h1>
         </div >  
         <Body />
-      	{/*<Scroll />*/}
+      	{/* <Scroll />  */}
         <Footer />
         </div>
     )
     
     
 }
-
