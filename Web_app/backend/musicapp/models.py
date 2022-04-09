@@ -1,10 +1,11 @@
 from django.db import models
 
 # Create your models here.
+def upload_path(instance, filename):
+    return '/'.join(['musicfiles',str(instance.title), filename])
 class Post(models.Model):
     title = models.CharField(max_length=100)
-    content = models.TextField()
-    image = models.FileField(upload_to='files/')
+    file = models.FileField(upload_to=upload_path)
     
     def __str__(self):
-        return self.image
+        return self.title

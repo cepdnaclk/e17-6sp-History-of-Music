@@ -17,12 +17,20 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from rest_framework import routers
+from musicapp.views import PostView
+from musicapp.views import upload, predict
 # from django.views import ImageUploadView,GetImagesView 
 
+router = routers.DefaultRouter()
+router.register(r'posts', PostView)
+
 urlpatterns = [
-    path('admin', admin.site.urls),
-    path('api/', include('musicapp.urls')),
+    path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
+    path('upload/', PostView.upload, name='upload'),
+    path('predict/', predict, name='predict'),
+    path('upload/predict/', predict, name='predict'),
     # path('upload', ImageUploadView.as_view()),
     # path('fetch-images', GetImagesView.as_view()),
 ]+ static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
-
