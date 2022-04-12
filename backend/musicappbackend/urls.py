@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework import routers
 from musicapp.views import PostView
-from musicapp.views import upload, predict
+from musicapp.views import predict
 # from django.views import ImageUploadView,GetImagesView 
 
 router = routers.DefaultRouter()
