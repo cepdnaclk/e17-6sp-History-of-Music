@@ -5,4 +5,13 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: 'http://localhost:8000/:slug',
+      },
+    ]
+  },
+  
 }
